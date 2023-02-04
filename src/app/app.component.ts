@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { ContentList } from './models/content-list';
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+
+  constructor( private _contentList:ContentList){
+
+  }
   title = 'M_Alhussami_BettaFish';
+
+
+
+   
 }
