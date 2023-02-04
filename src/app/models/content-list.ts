@@ -2,31 +2,32 @@ import { IContent } from "../icontent";
 
 
 export class ContentList {
-    static contentCount = 0;
-    private _items: IContent[];
-   
-    
-    constructor(  _items: IContent ) {
-         
-        this._items = [];
+    private _betta: IContent[];
+
+    constructor() {
+        this._betta = [];
       }
 
-       get iContent(): IContent[]{
-        return this._items;
+       get betta(): IContent[]{
+        return this._betta;
         }
+
+  // set videoGames(g: IContent[]){
+  //   this._videoGames = g;
+  // }
+  // example of what it looks like when we use the getter on a ContentList object
+// let games = new ContentList();
+// console.log(games.videoGames);
     
-    addContent(IContent: any) {
-        this._items.push(IContent)
+    addContent(newFish: IContent) {
+        this._betta.push(newFish);
 
     }
-    arrayLength () {
-        let array = this._items.length   
-        return array
+    arrayLength(): number {
+      
+        return this._betta.length;
         } 
-     increaseCount() {
-        return ++ContentList.contentCount;
-
-         }
+     
                     
                 
 }
