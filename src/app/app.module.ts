@@ -4,11 +4,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NewcomponentComponent } from './newcomponent/newcomponent.component';
+import { ContentListComponent } from './content-list/content-list.component';
+import { ContentListItemComponent } from './content-list-item/content-list-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NewcomponentComponent
+    NewcomponentComponent,
+    ContentListComponent,
+    ContentListItemComponent
   ],
   imports: [
     BrowserModule,
