@@ -34,8 +34,11 @@ export class ContentList {
             <h2>${betta.title}</h2>
             <img src="${betta.imgSrc}">
             <p>${betta.description}</p>
+            <div class="meta-data">
             <span class="author">${betta.author}</span>
-            <span class="type">${betta.type}</span>`;
+            <span class="type">${betta.type}</span>
+            <span class="type">${betta.type}</span>
+            </div>`;
 
             if (betta.tags) // If our tags array exists
             {
