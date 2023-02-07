@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IContent } from '../icontent';
+import { BettaService } from '../services/betta.service';
 
 @Component({
   selector: 'app-content-list',
@@ -9,7 +10,7 @@ import { IContent } from '../icontent';
 export class ContentListComponent {
   bettasArray: IContent[];
 
-  constructor() {
-    this.bettasArray = [] 
+  constructor(private bettaService: BettaService) {
+    this.bettasArray = [];
   }
 }
