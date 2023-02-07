@@ -10,7 +10,7 @@ export class BettaService {
 
   constructor() { }
 
-  getBetta() : Observable<IContent>{
+  getBetta() : Observable<IContent[]>{
     return of(CONTENT);
     }
 
