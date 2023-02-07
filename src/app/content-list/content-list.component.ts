@@ -13,4 +13,8 @@ export class ContentListComponent {
   constructor(private bettaService: BettaService) {
     this.bettasArray = [];
   }
+
+  ngOnInit() {
+    this.bettaService.getBetta().subscribe(content => this.bettasArray = content);
+    }
 }

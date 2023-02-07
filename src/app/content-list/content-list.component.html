@@ -1,11 +1,3 @@
 <!-- We can use a ternary operator to decide what class to apply -->
-<!-- <app-content-list-item
-  *ngFor="let singleVideoGame of videoGameArray; even as thisVideoGameIsEven; odd as thisVideoGameIsOdd"
-  [contentItemInputValue]="singleVideoGame"
-  [class]="thisVideoGameIsEven ? 'even-game' : 'odd-game'"></app-content-list-item> -->
-
-<!-- We can also use an attribute built into angular for more flexibility, called ngClass -->
-<app-content-list-item
-  *ngFor="let singleItem of bettasArray; even as thisVideoGameIsEven; odd as thisVideoGameIsOdd"
-  [contentItemInputValue]="singleItem"
-  [ngClass]="{'even-game': thisVideoGameIsEven, 'odd-game': thisVideoGameIsOdd}"></app-content-list-item>
+<app-content-list-item *ngFor="let singleItem of bettasArray"
+  [contentItemInputValue]="singleItem"></app-content-list-item>
