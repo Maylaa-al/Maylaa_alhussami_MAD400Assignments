@@ -7,14 +7,16 @@ import { NewcomponentComponent } from './newcomponent/newcomponent.component';
 import { ContentListComponent } from './content-list/content-list.component';
 import { ContentListItemComponent } from './content-list-item/content-list-item.component';
 import { BlankComponentComponent } from './blank-component/blank-component.component';
-
+import { MyLazyModuleComponent} from './my-lazy-module/my-lazy-module.component';
 @NgModule({
   declarations: [
     AppComponent,
     NewcomponentComponent,
     ContentListComponent,
     ContentListItemComponent,
-    BlankComponentComponent
+    BlankComponentComponent,
+    MyLazyModuleComponent
+    
   ],
   imports: [
     BrowserModule,

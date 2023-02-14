@@ -5,6 +5,7 @@
     "ng": "ng",
     "newinterface": "ng generate interface",
     "newclass": "ng generate class",
+    "newmodule": "ng generate module",
     "newcomponent": "ng generate component",
     "start": "ng serve",
     "build": "ng build",
