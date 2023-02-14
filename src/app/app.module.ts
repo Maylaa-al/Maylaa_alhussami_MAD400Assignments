@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NewcomponentComponent } from './newcomponent/newcomponent.component';
 import { ContentListComponent } from './content-list/content-list.component';
 import { ContentListItemComponent } from './content-list-item/content-list-item.component';
+import { BlankComponentComponent } from './blank-component/blank-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NewcomponentComponent,
     ContentListComponent,
-    ContentListItemComponent
+    ContentListItemComponent,
+    BlankComponentComponent
   ],
   imports: [
     BrowserModule,
