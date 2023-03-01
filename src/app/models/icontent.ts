@@ -1,11 +1,11 @@
 export interface IContent {
     id: number,
-    name: string,
+    title: string,
     description?: string,
     author: string,
     imgSrc?: string,
     type: string,
-    tags?: [string]
+    tags?: string[]
 
 
 }

@@ -1,2 +1,0 @@
-import { IContent } from "../icontent";
-
